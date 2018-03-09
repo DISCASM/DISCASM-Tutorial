@@ -10,4 +10,6 @@ set -ex
 
 ../GMAP-fusion -T discasm/trinity_out_dir/Trinity.fasta --genome_lib_dir ctat_genome_lib_build_dir/ --left_fq HCC1395-miniplus_1.fastq.gz --right_fq HCC1395-miniplus_2.fastq.gz -o gmapf
 
+cat  gmapf/GMAP-fusion.final
+
 centrifuge -x /seq/RNASEQ/TOOLS/CENTRIFUGE/data/p_compressed+h+v -f  -U discasm/trinity_out_dir/Trinity.fasta | tee centrifuge.txt
