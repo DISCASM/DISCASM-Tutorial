@@ -12,4 +12,4 @@ set -ex
 
 cat  gmapf/GMAP-fusion.final
 
-centrifuge -x /seq/RNASEQ/TOOLS/CENTRIFUGE/data/p_compressed+h+v -f  -U discasm/trinity_out_dir/Trinity.fasta | tee centrifuge.txt
+centrifuge -x centrifuge_VirusDB/abv -f  -U discasm/trinity_out_dir/Trinity.fasta | tee centrifuge.matches.txt
