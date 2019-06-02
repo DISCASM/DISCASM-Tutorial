@@ -1,0 +1,3 @@
+#FusionName	JunctionReadCount	SpanningFragCount	trans_acc	trans_brkpt	LeftGene	LeftBreakpoint	RightGene	RightBreakpoint	SpliceType	annots
+PLA2R1--RBMS1	199	41	TRINITY_DN0_c0_g1_i5	1589-1588	PLA2R1	chr2:272580	RBMS1	chr2:599999	ONLY_REF_SPLICE	["INTRACHROMOSOMAL[chr2:0.21Mb]"]
+PLA2R1--RBMS1	199	41	TRINITY_DN0_c0_g1_i15	1589-1588	PLA2R1	chr2:272580	RBMS1	chr2:599999	ONLY_REF_SPLICE	["INTRACHROMOSOMAL[chr2:0.21Mb]"]
